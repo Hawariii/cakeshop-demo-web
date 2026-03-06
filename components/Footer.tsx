@@ -8,14 +8,17 @@ const quickLinks = [
 
 export function Footer() {
   return (
-    <footer id="contact" className="bg-slate-900 pt-12 pb-8 text-slate-200">
+    <footer
+      id="contact"
+      className="bg-gradient-to-b from-pink-100/40 via-white to-cyan-100/50 pt-12 pb-8 text-slate-700"
+    >
       <div className="mx-auto w-[min(1100px,92%)]">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
-            <p className="text-3xl font-extrabold tracking-wide text-white">
+            <p className="text-3xl font-extrabold tracking-wide text-slate-800">
               Sweet<span className="text-pink-400">Crumb</span>
             </p>
-            <p className="mt-3 max-w-md text-sm leading-7 text-slate-300">
+            <p className="mt-3 max-w-md text-sm leading-7 text-slate-600">
               Premium cake studio untuk kebutuhan personal dan corporate. Kami fokus pada kualitas rasa,
               ketepatan pengiriman, dan desain cake yang elegan.
             </p>
@@ -26,7 +29,7 @@ export function Footer() {
             <ul className="mt-3 space-y-2 text-sm">
               {quickLinks.map((item) => (
                 <li key={item.href}>
-                  <a className="text-slate-300 transition hover:text-white" href={item.href}>
+                  <a className="text-slate-600 transition hover:text-cyan-700" href={item.href}>
                     {item.label}
                   </a>
                 </li>
@@ -36,7 +39,7 @@ export function Footer() {
 
           <div>
             <p className="text-sm font-bold uppercase tracking-wider text-cyan-300">Contact</p>
-            <ul className="mt-3 space-y-2 text-sm text-slate-300">
+            <ul className="mt-3 space-y-2 text-sm text-slate-600">
               <li>Jl. Pastry No. 18, Jakarta</li>
               <li>+62 812-3456-7890</li>
               <li>order@sweetcrumb.id</li>
@@ -45,7 +48,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 border-t border-slate-700 pt-5 text-xs text-slate-400">
+        <div className="mt-8 border-t border-slate-200 pt-5 text-xs text-slate-500">
           © {new Date().getFullYear()} SweetCrumb. All rights reserved.
         </div>
       </div>
