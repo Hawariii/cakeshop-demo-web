@@ -11,7 +11,7 @@ type HighlightsProps = {
   highlights: Highlight[];
 };
 
-export function Highlights({ highlights }: HighlightsProps) {
+export function AboutSection({ highlights }: HighlightsProps) {
   return (
     <section
       id="about"

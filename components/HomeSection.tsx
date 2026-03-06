@@ -1,6 +1,6 @@
 import { ShopStatus } from "@/components/ShopStatus";
 
-export function Hero() {
+export function HomeSection() {
   return (
     <section id="home" className="pt-16 pb-10">
       <div className="mx-auto grid w-[min(1100px,92%)] gap-8 lg:grid-cols-[1.2fr_0.8fr]">

@@ -13,7 +13,7 @@ type ProductGridProps = {
   products: Product[];
 };
 
-export function ProductGrid({ products }: ProductGridProps) {
+export function MenuSection({ products }: ProductGridProps) {
   return (
     <section id="menu" className="py-12">
       <div className="mx-auto w-[min(1100px,92%)]">

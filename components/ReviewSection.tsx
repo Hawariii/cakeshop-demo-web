@@ -13,7 +13,7 @@ type TestimonialsProps = {
   testimonials: Testimonial[];
 };
 
-export function Testimonials({ testimonials }: TestimonialsProps) {
+export function ReviewSection({ testimonials }: TestimonialsProps) {
   return (
     <section id="review" className="py-12">
       <div className="mx-auto w-[min(1100px,92%)]">

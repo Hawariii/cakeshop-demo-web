@@ -41,7 +41,7 @@ export function Footer() {
             <p className="text-sm font-bold uppercase tracking-wider text-cyan-300">Contact</p>
             <ul className="mt-3 space-y-2 text-sm text-slate-600">
               <li>Jl. Pastry No. 18, Jakarta</li>
-              <li>+62 812-3456-7890</li>
+              <li>+62 851-8780-2017</li>
               <li>order@sweetcrumb.id</li>
               <li>Setiap hari, 08.00 - 21.00 WIB</li>
             </ul>
@@ -49,7 +49,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 border-t border-slate-200 pt-5 text-xs text-slate-500">
-          © {new Date().getFullYear()} SweetCrumb. All rights reserved.
+          © {new Date().getFullYear()} Ahmad Hawari. All rights reserved.
         </div>
       </div>
     </footer>

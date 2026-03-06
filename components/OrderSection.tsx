@@ -1,4 +1,4 @@
-export function ContactOrder() {
+export function OrderSection() {
   const waMessage =
     "Halo SweetCrumb, saya ingin konsultasi untuk pemesanan cake.";
 
@@ -11,13 +11,13 @@ export function ContactOrder() {
           <p className="mt-3 text-slate-600">
             Hubungi tim kami untuk custom cake, corporate order, atau paket event.
           </p>
-          <p className="mt-4 font-semibold text-slate-700">WhatsApp: +62 812-3456-7890</p>
+          <p className="mt-4 font-semibold text-slate-700">WhatsApp: +62 851-8780-2017</p>
           <p className="mt-1 font-semibold text-slate-700">Email: order@sweetcrumb.id</p>
 
           <div className="mt-5 flex flex-wrap gap-3">
             <a
               className="rounded-full bg-gradient-to-r from-pink-500 to-pink-400 px-5 py-3 text-sm font-bold text-white transition hover:-translate-y-0.5"
-              href={`https://wa.me/6281234567890?text=${encodeURIComponent(waMessage)}`}
+              href={`https://wa.me/6285187802017?text=${encodeURIComponent(waMessage)}`}
               target="_blank"
               rel="noopener noreferrer"
             >

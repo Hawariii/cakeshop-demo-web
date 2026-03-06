@@ -1,10 +1,10 @@
-import { ContactOrder } from "@/components/ContactOrder";
+import { AboutSection } from "@/components/AboutSection";
 import { Footer } from "@/components/Footer";
-import { Hero } from "@/components/Hero";
-import { Highlights } from "@/components/Highlights";
+import { HomeSection } from "@/components/HomeSection";
+import { MenuSection } from "@/components/MenuSection";
 import { Navbar } from "@/components/Navbar";
-import { ProductGrid } from "@/components/ProductGrid";
-import { Testimonials } from "@/components/Testimonials";
+import { OrderSection } from "@/components/OrderSection";
+import { ReviewSection } from "@/components/ReviewSection";
 import highlights from "@/data/highlights.json";
 import products from "@/data/products.json";
 import testimonials from "@/data/testimonials.json";
@@ -14,11 +14,11 @@ export default function Home() {
     <div className="min-h-screen">
       <Navbar />
       <main>
-        <Hero />
-        <ProductGrid products={products} />
-        <Highlights highlights={highlights} />
-        <Testimonials testimonials={testimonials} />
-        <ContactOrder />
+        <HomeSection />
+        <AboutSection highlights={highlights} />
+        <MenuSection products={products} />
+        <ReviewSection testimonials={testimonials} />
+        <OrderSection />
       </main>
       <Footer />
     </div>
