@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Bahan Premium",
+    "description": "Kami hanya memakai bahan berkualitas tinggi tanpa kompromi rasa."
+  },
+  {
+    "id": 2,
+    "title": "Desain Profesional",
+    "description": "Setiap kue dirancang rapi untuk kebutuhan personal hingga corporate."
+  },
+  {
+    "id": 3,
+    "title": "Pengiriman Tepat Waktu",
+    "description": "Sistem pemesanan kami memastikan cake tiba aman sesuai jadwal acara."
+  }
+]

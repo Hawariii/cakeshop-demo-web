@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Strawberry Dream Cake",
+    "description": "Sponge lembut dengan krim strawberry segar dan lapisan white chocolate.",
+    "price": "Rp320.000",
+    "badge": "Best Seller"
+  },
+  {
+    "id": 2,
+    "name": "Cyan Velvet Celebration",
+    "description": "Kue premium untuk momen spesial dengan tekstur moist dan buttercream halus.",
+    "price": "Rp390.000",
+    "badge": "New"
+  },
+  {
+    "id": 3,
+    "name": "Pink Bloom Cupcake Box",
+    "description": "Isi 12 cupcake dekorasi floral modern, cocok untuk gift dan event kantor.",
+    "price": "Rp210.000",
+    "badge": "Popular"
+  },
+  {
+    "id": 4,
+    "name": "Signature Wedding Cake",
+    "description": "Kue bertingkat elegan dengan desain custom dan rasa yang bisa dipilih.",
+    "price": "Mulai Rp1.250.000",
+    "badge": "Custom"
+  }
+]

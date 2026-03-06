@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Alya Pramesti",
+    "role": "Event Organizer",
+    "message": "Kualitas rasa dan tampilannya sangat konsisten. Klien kami selalu puas.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Rafi Mahendra",
+    "role": "Marketing Lead",
+    "message": "Pesan untuk acara kantor dan hasilnya profesional, delivery juga tepat waktu.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Nina Kartika",
+    "role": "Wedding Client",
+    "message": "Timnya detail dan responsif. Wedding cake kami terlihat elegan dan rasanya enak.",
+    "rating": 5
+  }
+]
