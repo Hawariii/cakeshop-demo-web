@@ -4,27 +4,63 @@
     "name": "Strawberry Dream Cake",
     "description": "Sponge lembut dengan krim strawberry segar dan lapisan white chocolate.",
     "price": "Rp320.000",
-    "badge": "Best Seller"
+    "badge": "Best Seller",
+    "image": "/images/menu-1.svg"
   },
   {
     "id": 2,
     "name": "Cyan Velvet Celebration",
     "description": "Kue premium untuk momen spesial dengan tekstur moist dan buttercream halus.",
     "price": "Rp390.000",
-    "badge": "New"
+    "badge": "New",
+    "image": "/images/menu-2.svg"
   },
   {
     "id": 3,
     "name": "Pink Bloom Cupcake Box",
     "description": "Isi 12 cupcake dekorasi floral modern, cocok untuk gift dan event kantor.",
     "price": "Rp210.000",
-    "badge": "Popular"
+    "badge": "Popular",
+    "image": "/images/menu-3.svg"
   },
   {
     "id": 4,
     "name": "Signature Wedding Cake",
     "description": "Kue bertingkat elegan dengan desain custom dan rasa yang bisa dipilih.",
     "price": "Mulai Rp1.250.000",
-    "badge": "Custom"
+    "badge": "Custom",
+    "image": "/images/menu-4.svg"
+  },
+  {
+    "id": 5,
+    "name": "Classic Blackforest",
+    "description": "Paduan cokelat rich, cream ringan, dan cherry manis segar.",
+    "price": "Rp285.000",
+    "badge": "Favorite",
+    "image": "/images/menu-5.svg"
+  },
+  {
+    "id": 6,
+    "name": "Blueberry Cheesecake",
+    "description": "Cheesecake creamy dengan topping blueberry premium.",
+    "price": "Rp335.000",
+    "badge": "Premium",
+    "image": "/images/menu-6.svg"
+  },
+  {
+    "id": 7,
+    "name": "Lotus Biscoff Cake",
+    "description": "Layer cake dengan krim biscoff dan crumble renyah.",
+    "price": "Rp355.000",
+    "badge": "Trending",
+    "image": "/images/menu-7.svg"
+  },
+  {
+    "id": 8,
+    "name": "Mini Party Cake Set",
+    "description": "Paket 4 mini cake varian rasa untuk gathering kecil.",
+    "price": "Rp260.000",
+    "badge": "Bundle",
+    "image": "/images/menu-8.svg"
   }
 ]

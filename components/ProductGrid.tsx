@@ -1,9 +1,12 @@
+import Image from "next/image";
+
 type Product = {
   id: number;
   name: string;
   description: string;
   price: string;
   badge: string;
+  image: string;
 };
 
 type ProductGridProps = {
@@ -12,13 +15,20 @@ type ProductGridProps = {
 
 export function ProductGrid({ products }: ProductGridProps) {
   return (
-    <section id="products" className="section">
+    <section id="menu" className="section">
       <div className="container">
-        <p className="section-label">Our Product</p>
+        <p className="section-label">Our Menu</p>
         <h2 className="section-title">Pilihan Cake Favorit</h2>
         <div className="card-grid">
           {products.map((product) => (
             <article key={product.id} className="cake-card">
+              <Image
+                className="card-image"
+                src={product.image}
+                alt={product.name}
+                width={600}
+                height={380}
+              />
               <p className="badge">{product.badge}</p>
               <h3>{product.name}</h3>
               <p className="card-copy">{product.description}</p>

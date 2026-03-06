@@ -1,8 +1,9 @@
 const navItems = [
   { label: "Home", href: "#home" },
-  { label: "Products", href: "#products" },
-  { label: "Why Us", href: "#why-us" },
-  { label: "Testimonials", href: "#testimonials" },
+  { label: "About", href: "#about" },
+  { label: "Menu", href: "#menu" },
+  { label: "Review", href: "#review" },
+  { label: "Order", href: "#order" },
 ];
 
 export function Navbar() {

@@ -5,18 +5,17 @@ export function Hero() {
         <div>
           <p className="eyebrow">Premium Cake Studio</p>
           <h1>
-            Cake shop profesional dengan nuansa <span>pink</span>,{" "}
-            <span>white</span>, dan <span>cyan</span>
+            Cake shop profesional untuk momen spesial kamu
           </h1>
           <p className="hero-copy">
             Kami menghadirkan cake premium untuk ulang tahun, pernikahan, dan
             acara perusahaan dengan desain elegan dan rasa konsisten.
           </p>
           <div className="hero-actions">
-            <a href="#products" className="btn btn-primary">
-              Lihat Produk
+            <a href="#menu" className="btn btn-primary">
+              Lihat Menu
             </a>
-            <a href="#contact" className="btn btn-secondary">
+            <a href="#order" className="btn btn-secondary">
               Konsultasi Pesanan
             </a>
           </div>
@@ -27,6 +26,7 @@ export function Hero() {
             <li>Custom design request</li>
             <li>Same day delivery area tertentu</li>
             <li>Corporate bulk package</li>
+            <li>Jam buka: 08.00 - 21.00 WIB</li>
           </ul>
         </aside>
       </div>

@@ -2,16 +2,19 @@
   {
     "id": 1,
     "title": "Bahan Premium",
-    "description": "Kami hanya memakai bahan berkualitas tinggi tanpa kompromi rasa."
+    "description": "Kami memakai bahan berkualitas tinggi tanpa kompromi rasa.",
+    "image": "/images/about-1.svg"
   },
   {
     "id": 2,
-    "title": "Desain Profesional",
-    "description": "Setiap kue dirancang rapi untuk kebutuhan personal hingga corporate."
+    "title": "Chef Berpengalaman",
+    "description": "Tim pastry berpengalaman untuk hasil dekorasi rapi dan profesional.",
+    "image": "/images/about-2.svg"
   },
   {
     "id": 3,
     "title": "Pengiriman Tepat Waktu",
-    "description": "Sistem pemesanan kami memastikan cake tiba aman sesuai jadwal acara."
+    "description": "Sistem order kami memastikan cake tiba aman sesuai jadwal acara.",
+    "image": "/images/about-3.svg"
   }
 ]

@@ -1,3 +1,4 @@
+import { ContactOrder } from "@/components/ContactOrder";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { Highlights } from "@/components/Highlights";
@@ -17,6 +18,7 @@ export default function Home() {
         <ProductGrid products={products} />
         <Highlights highlights={highlights} />
         <Testimonials testimonials={testimonials} />
+        <ContactOrder />
       </main>
       <Footer />
     </div>
