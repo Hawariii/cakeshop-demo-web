@@ -1,3 +1,5 @@
+import { ShopStatus } from "@/components/ShopStatus";
+
 export function Hero() {
   return (
     <section id="home" className="hero">
@@ -39,13 +41,27 @@ export function Hero() {
           </div>
         </div>
         <aside className="hero-card">
-          <p className="hero-card-title">Open Order Hari Ini</p>
-          <ul>
-            <li>Custom design request</li>
-            <li>Same day delivery area tertentu</li>
-            <li>Corporate bulk package</li>
-            <li>Jam buka: 08.00 - 21.00 WIB</li>
-          </ul>
+          <p className="hero-card-title">Informasi Store</p>
+
+          <div className="hero-card-section">
+            <p className="hero-card-subtitle">Layanan Cepat</p>
+            <ul className="hero-card-list">
+              <li>Custom design request 1-2 hari</li>
+              <li>Same day delivery area tertentu</li>
+              <li>Corporate bulk package</li>
+            </ul>
+          </div>
+
+          <div className="hero-card-section">
+            <p className="hero-card-subtitle">Jadwal Operasional</p>
+            <ul className="hero-card-list">
+              <li>Senin - Jumat: 08.00 - 21.00 WIB</li>
+              <li>Sabtu: 08.00 - 22.00 WIB</li>
+              <li>Minggu: 09.00 - 20.00 WIB</li>
+            </ul>
+          </div>
+
+          <ShopStatus />
         </aside>
       </div>
     </section>
