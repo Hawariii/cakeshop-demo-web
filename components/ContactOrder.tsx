@@ -1,4 +1,7 @@
 export function ContactOrder() {
+  const waMessage =
+    "Halo SweetCrumb, saya ingin konsultasi untuk pemesanan cake.";
+
   return (
     <section id="order" className="section order-section">
       <div className="container order-grid">
@@ -11,6 +14,19 @@ export function ContactOrder() {
           </p>
           <p className="order-line">WhatsApp: +62 812-3456-7890</p>
           <p className="order-line">Email: order@sweetcrumb.id</p>
+          <div className="contact-actions">
+            <a
+              className="btn btn-primary"
+              href={`https://wa.me/6281234567890?text=${encodeURIComponent(waMessage)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Chat WhatsApp
+            </a>
+            <a className="btn btn-secondary" href="mailto:order@sweetcrumb.id">
+              Kirim Email
+            </a>
+          </div>
         </article>
         <article className="order-card">
           <p className="section-label">Opening Hours</p>
