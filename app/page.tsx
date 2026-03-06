@@ -11,7 +11,7 @@ import testimonials from "@/data/testimonials.json";
 
 export default function Home() {
   return (
-    <div className="site-shell">
+    <div className="min-h-screen">
       <Navbar />
       <main>
         <Hero />

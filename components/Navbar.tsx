@@ -8,16 +8,21 @@ const navItems = [
 
 export function Navbar() {
   return (
-    <header className="navbar">
-      <div className="container nav-content">
-        <div className="brand">
-          Sweet<span className="accent">Crumb</span>
+    <header className="sticky top-0 z-20 bg-white/85 backdrop-blur-md">
+      <div className="mx-auto flex w-[min(1100px,92%)] items-center justify-between py-4">
+        <div className="text-2xl font-extrabold tracking-wide text-slate-800">
+          Sweet<span className="text-pink-500">Crumb</span>
         </div>
         <nav>
-          <ul className="nav-list">
+          <ul className="hidden items-center gap-6 md:flex">
             {navItems.map((item) => (
               <li key={item.href}>
-                <a href={item.href}>{item.label}</a>
+                <a
+                  className="text-sm font-semibold text-slate-700 transition-colors hover:text-cyan-600"
+                  href={item.href}
+                >
+                  {item.label}
+                </a>
               </li>
             ))}
           </ul>

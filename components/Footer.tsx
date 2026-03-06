@@ -1,16 +1,52 @@
+const quickLinks = [
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Menu", href: "#menu" },
+  { label: "Review", href: "#review" },
+  { label: "Order", href: "#order" },
+];
+
 export function Footer() {
   return (
-    <footer id="contact" className="footer">
-      <div className="container footer-content">
-        <div>
-          <p className="brand">
-            Sweet<span className="accent">Crumb</span>
-          </p>
-          <p>Jl. Pastry No. 18, Jakarta</p>
+    <footer id="contact" className="bg-slate-900 pt-12 pb-8 text-slate-200">
+      <div className="mx-auto w-[min(1100px,92%)]">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div className="lg:col-span-2">
+            <p className="text-3xl font-extrabold tracking-wide text-white">
+              Sweet<span className="text-pink-400">Crumb</span>
+            </p>
+            <p className="mt-3 max-w-md text-sm leading-7 text-slate-300">
+              Premium cake studio untuk kebutuhan personal dan corporate. Kami fokus pada kualitas rasa,
+              ketepatan pengiriman, dan desain cake yang elegan.
+            </p>
+          </div>
+
+          <div>
+            <p className="text-sm font-bold uppercase tracking-wider text-cyan-300">Quick Links</p>
+            <ul className="mt-3 space-y-2 text-sm">
+              {quickLinks.map((item) => (
+                <li key={item.href}>
+                  <a className="text-slate-300 transition hover:text-white" href={item.href}>
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <p className="text-sm font-bold uppercase tracking-wider text-cyan-300">Contact</p>
+            <ul className="mt-3 space-y-2 text-sm text-slate-300">
+              <li>Jl. Pastry No. 18, Jakarta</li>
+              <li>+62 812-3456-7890</li>
+              <li>order@sweetcrumb.id</li>
+              <li>Setiap hari, 08.00 - 21.00 WIB</li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <p>WhatsApp: +62 812-3456-7890</p>
-          <p>Email: order@sweetcrumb.id</p>
+
+        <div className="mt-8 border-t border-slate-700 pt-5 text-xs text-slate-400">
+          © {new Date().getFullYear()} SweetCrumb. All rights reserved.
         </div>
       </div>
     </footer>

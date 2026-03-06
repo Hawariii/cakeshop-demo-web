@@ -106,12 +106,16 @@ export function ShopStatus() {
   const status = useMemo(() => getStatus(now), [now]);
 
   return (
-    <div className="shop-status-wrap">
-      <span className={`shop-status-badge ${status.isOpen ? "is-open" : "is-close"}`}>
+    <div className="mt-4 rounded-2xl border border-cyan-200 bg-white/85 p-4">
+      <span
+        className={`inline-flex min-w-28 items-center justify-center rounded-full px-4 py-1.5 text-sm font-extrabold tracking-wider ${
+          status.isOpen ? "bg-emerald-100 text-emerald-700" : "bg-rose-100 text-rose-700"
+        }`}
+      >
         {status.badge}
       </span>
-      <p className="shop-status-detail">{status.detail}</p>
-      <p className="shop-status-day">{status.todayLabel}</p>
+      <p className="mt-3 text-base font-bold text-slate-700">{status.detail}</p>
+      <p className="mt-1 text-sm font-medium text-slate-500">{status.todayLabel}</p>
     </div>
   );
 }
