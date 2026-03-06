@@ -21,19 +21,25 @@ export function Testimonials({ testimonials }: TestimonialsProps) {
         <h2 className="section-title">Apa Kata Pelanggan</h2>
         <div className="testimonial-grid">
           {testimonials.map((item) => (
-            <article key={item.id} className="testimonial-card">
-              <Image
-                className="review-avatar"
-                src={item.image}
-                alt={item.name}
-                width={96}
-                height={96}
-              />
-              <p className="stars">{"★".repeat(item.rating)}</p>
-              <p className="quote">{item.message}</p>
-              <p className="author">{item.name}</p>
-              <p className="role">{item.role}</p>
-            </article>
+            <div key={item.id} className="testimonial-item">
+              <div className="reviewer-meta">
+                <Image
+                  className="review-avatar"
+                  src={item.image}
+                  alt={item.name}
+                  width={64}
+                  height={64}
+                />
+                <div>
+                  <p className="author">{item.name}</p>
+                  <p className="role">{item.role}</p>
+                </div>
+              </div>
+              <article className="testimonial-card">
+                <p className="stars">{"★".repeat(item.rating)}</p>
+                <p className="quote">{item.message}</p>
+              </article>
+            </div>
           ))}
         </div>
       </div>
